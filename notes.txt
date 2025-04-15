@@ -1,0 +1,13 @@
+functioning of app:
+
+loop shows window
+clicking button leads to header function
+function runs and completes task,
+if function needs to run over a set amount of time (such as a timer), it must run alongside the main loop
+? How to make the function run alongside the main loop? Can it be done in a modular manner?
+solution 1: main loop has if statement checks that will run different states based on what functions are running (just as in Shooter Game)
+
+Current issues: 
+Options button opens timer prompt?
+When hovering over prompt window there is some awkward flickering
+Settings prompt is nowhere to be seen, not attached to any button
